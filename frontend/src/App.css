@@ -1,0 +1,60 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+h1 {
+text-align: center;
+}
+form {
+  display: block;
+  width: 460px;
+  height: 320px;
+  border:2px solid black;
+  margin: auto;
+  margin-top: 20px;
+  padding:20px
+}
+input, select{
+  float: right;
+  margin-right: 20px;
+  
+}
+button {
+  float:right;
+  margin-top: 20px;
+}
+
+.image img{
+  margin: 10px;
+  float: left;
+  border: 2px solid;
+  width: 80px;
+  height: 80px;
+}
+table {
+  margin: 10px;
+}
+ table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+tr:focus {
+  background-color: rgb(161, 176, 245);
+}
+span{
+  color:red;
+  text-align: center;
+}
+
+.Radio{
+  float: right;
+  margin-right: 20px;
+}
